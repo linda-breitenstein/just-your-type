@@ -1,0 +1,37 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  background-color: #667292;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.mobile {
+  font-family: 'Francois One', sans-serif;
+  color: #80ced6;
+}
+
+h1 {
+  font-family: 'League Script', cursive;
+  color: #c0ded9;
+}
+
+.medium {
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+footer {
+  font-family: 'Old Standard TT', serif;
+}
+
+.overlap {
+  font-family: 'Quicksand', sans-serif;
+}

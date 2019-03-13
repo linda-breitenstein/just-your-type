@@ -26,7 +26,12 @@ h1 {
 
 .medium {
   font-family: 'Quicksand', sans-serif;
+}
 
+.box {
+  box-sizing: border-box;
+  border-width: medium;
+  border-color: black;
 }
 
 footer {
@@ -35,4 +40,10 @@ footer {
 
 .overlap {
   font-family: 'Quicksand', sans-serif;
+}
+
+
+@media only screen and (min-width: 60em) {
+
+
 }

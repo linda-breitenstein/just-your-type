@@ -7,32 +7,32 @@ html {
   color: #80ced6;
 }
 
-.mobile p:not(:last-child){
+.mobile p:not(:last-child) {
   border-bottom: 25px solid #80ced6;
 }
 
 .dream {
-position: absolute;
-top: 1em;
-left: 1em;
+  position: absolute;
+  top: 1em;
+  left: 1em;
 }
 
 h1 {
-  font-family:"League Script", cursive;
+  font-family: "League Script", cursive;
   color: #7a8dc0;
 }
 
 .boxed {
-  font-family:"Quicksand", sans-serif;
+  font-family: Quicksand, sans-serif;
   border: 2px solid #80ced6;
 }
 
 footer {
-  font-family:"Old Standard TT", serif;
+  font-family: "Old Standard TT", serif;
 }
 
 .overlap {
-  font-family:"Quicksand", sans-serif;
+  font-family: Quicksand, sans-serif;
 }
 
 .cite {

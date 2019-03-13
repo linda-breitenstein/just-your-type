@@ -28,21 +28,15 @@ h1 {
 }
 
 footer {
-  font-family: 'Old Standard TT', serif;
+  font-family: "Old Standard TT", serif;
 }
 
 .overlap {
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 .cite {
   position: absolute;
   right: 10em;
   bottom: 7em;
-}
-
-
-@media only screen and (min-width: 60em) {
-
-
 }

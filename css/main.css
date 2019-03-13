@@ -1,37 +1,30 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
 html {
-  box-sizing: border-box;
   background-color: #667292;
 }
 
-*, *::before, *::after {
-  box-sizing: inherit;
+.mobile {
+  font-family: "Francois One", sans-serif;
+  color: #80ced6;
 }
 
-.mobile {
-  font-family: 'Francois One', sans-serif;
-  color: #80ced6;
-  padding: 0;
+.mobile p:not(:last-child){
+  border-bottom: 25px solid #80ced6;
+}
+
+.dream {
+position: absolute;
+top: 1em;
+left: 1em;
 }
 
 h1 {
-  font-family: 'League Script', cursive;
-  color: #c0ded9;
+  font-family:"League Script", cursive;
+  color: #7a8dc0;
 }
 
-.medium {
-  font-family: 'Quicksand', sans-serif;
-}
-
-.box {
-  box-sizing: border-box;
-  border-width: medium;
-  border-color: black;
+.boxed {
+  font-family: "Quicksand", sans-serif;
+  border: 2px solid #80ced6;
 }
 
 footer {
@@ -40,6 +33,12 @@ footer {
 
 .overlap {
   font-family: 'Quicksand', sans-serif;
+}
+
+.cite {
+  position: absolute;
+  right: 10em;
+  bottom: 7em;
 }
 
 
